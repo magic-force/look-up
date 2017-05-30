@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0px;
+   padding:0px;}
+.title {
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:36px;
+	line-height:80px;}
+header {margin:30px auto;
+        width:90%;
+		height:80px;}
+#log-in {width:40%;
+		 margin:130px auto;
+		 border:1px #888080 solid;}
+.input_control {width:100%;
+                height:60px;
+				padding-top:1%;
+				padding-bottom:1%;
+				padding-left:5%;
+				padding-right:5px;}
+.span-control {width:30%;
+               height:60%;
+               display:inline-block;
+			   text-align:center;
+			   line-height:40px;
+			   border:1px black solid;
+			   vertical-align:middle;}
+.textbox-control {width:60%;
+                  height:60%;
+                  display:inline-block;
+				  vertical-align:middle;}
+.botton-control {height:36px;
+                 width:30%;
+				 text-align:center;
+				 line-height:36px;
+				 margin-left:67%;
+                 margin-bottom:15px;}               
