@@ -13,18 +13,19 @@
 </header>
 <div id="log-in">
     <h3 class="title" style="font-size:20px;">输入账号密码登陆</h3>
-    <form id="sign" name="sign" action="" method="post" onSubmit="check()">
+    <form id="sign" name="sign" action="" method="post" onSubmit="return check()">
     <div class="input_control">
     <span class="span-control">账号</span>
-    <input class="textbox-control" type="text" name="acount" placeholder="请输入账号">
+    <input class="textbox-control" type="text" id="acount" name="acount" placeholder="请输入账号" >
     </div>
    <div class="input_control">
     <span class="span-control">密码</span>
-    <input class="textbox-control" type="password" name="acount" placeholder="请输入密码">
+    <input class="textbox-control" type="password" id="code" name="acount" placeholder="请输入密码" >
     </div>
-    <input class="botton-control" type="submit" value="登陆" form="sign">
+    <input class="botton-control" id="btn" type="submit" value="登陆" form="sign">
     </form>
 </div>
-<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/js-control.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 /* CSS Document */
 * {margin:0px;
    padding:0px;}
+body {background-color:rgb(239,240,220);}
 .title {
 	text-align:center;
 	font-family:"微软雅黑";
@@ -12,7 +13,8 @@ header {margin:30px auto;
 		height:80px;}
 #log-in {width:40%;
 		 margin:130px auto;
-		 border:1px #888080 solid;}
+		 border:1px rgb(239,240,220) solid;
+		 background-color:rgb(201,202,187);}
 .input_control {width:100%;
                 height:60px;
 				padding-top:1%;
@@ -24,15 +26,18 @@ header {margin:30px auto;
                display:inline-block;
 			   text-align:center;
 			   line-height:40px;
-			   border:1px black solid;
-			   vertical-align:middle;}
+			   border:1px #BCBCBC solid;
+			   vertical-align:middle;
+			   margin-right:-5px;
+			   background-color:#CFCFCF;}
 .textbox-control {width:60%;
                   height:60%;
                   display:inline-block;
-				  vertical-align:middle;}
+				  vertical-align:middle;
+				  box-sizing:border-box;}
 .botton-control {height:36px;
                  width:30%;
 				 text-align:center;
 				 line-height:36px;
-				 margin-left:67%;
+				 margin-left:65%;
                  margin-bottom:15px;}               
